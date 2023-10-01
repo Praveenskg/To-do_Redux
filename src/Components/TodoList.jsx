@@ -8,7 +8,7 @@ import {
   updateTodo,
   toggleTodo,
   deleteTodo,
-} from "../features/todos/todosSlice";
+} from "../Features/Todos/TodosSlice";
 
 const TodoList = ({ todos, addTodo, updateTodo, toggleTodo, deleteTodo }) => {
   const [newTodo, setNewTodo] = useState("");
